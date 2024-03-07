@@ -1,1 +1,0 @@
-/home/spencer0/website/spencer.rhoden.org/deploy.sh
