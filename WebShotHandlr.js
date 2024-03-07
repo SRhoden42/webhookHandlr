@@ -37,6 +37,8 @@ app.post('/', express.json({type: 'application/json'}), (request, response) => {
     console.log('GitHub sent the ping event');
   } else if (githubEvent === 'push') {
     console.log('GitHub sent the push event');
+  } else if (githubEvent === 'post') {
+    console.log('GitHub sent the post event');
   } else {
     console.log(`Unhandled event: ${githubEvent}`);
   }
